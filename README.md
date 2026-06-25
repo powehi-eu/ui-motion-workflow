@@ -170,13 +170,13 @@ After:
 
 ![Seryvon after orchestrator compare](docs/seryvon-after-orchestrator-compare.png)
 
-The new version feels more orchestrated because it reads like a guided sequence, not a stack of disconnected sections.
+The result feels more orchestrated because the page now has a clearer narrative sequence instead of a set of polished but mostly parallel sections.
 
-The hero now has a much clearer hierarchy: product first (`Seryvon`), then the core promise, then the progression `Get found / Get cited / Get chosen.` The CTAs are easier to parse and more intentionally prioritized, so the page gives a stronger first direction instead of asking the user to figure it out.
+The hero now explicitly frames the product journey as Get found, Get cited, and Get chosen, which makes the five-pillar story easier to understand immediately. The audit panel also has clearer product signals with Crawl, Score, and Proof, so the visual proof feels connected to the product workflow rather than decorative.
 
-The pacing is also more controlled: less decorative noise, more breathing room, sharper cards, a sticky navigation, and sections that reveal at the right moment. Motion supports the reading flow instead of competing with it, through the hero entrance, the proof panel, the score bars, and the scroll reveals.
+Motion is more intentional: section reveals are staggered, bar fills progress in sequence, and hover states are restrained. The animation supports reading order instead of competing with the content.
 
-Product proof is clearer too. The audit snapshot, metrics, comparison table, build-quality section, roadmap, and adoption path now form a more logical narrative. The page makes it easier to understand why Seryvon exists, what it measures, how it is different, and what to do next.
+The page rhythm is tighter too. The first viewport now hints at the proof metrics on desktop and mobile, CTAs are more legible, and the Pro / Team offer is visually prioritized without making the pricing section feel noisy. Overall, the page reads less like individual nice sections and more like one guided product argument.
 ## Public Roadmap
 
 Short version:
@@ -220,6 +220,7 @@ For a local checkout, the usual flow is:
 2. install `ui-motion-workflow` from that marketplace
 
 See [docs/codex-usage.md](docs/codex-usage.md) for the Codex-oriented workflow details.
+
 
 
 
