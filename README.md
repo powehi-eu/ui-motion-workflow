@@ -145,6 +145,25 @@ If you want the Codex-first setup, start with:
 5. add practical examples
 6. package optional distributions later if useful
 
+## Public Roadmap
+
+Short version:
+
+- improve install guidance per environment
+- add stronger real-world examples and screenshots
+- refine browser-validation workflows
+- keep the core orchestration portable while expanding adapters
+
+See `docs/roadmap.md` for the fuller roadmap.
+
+## Acknowledgements
+
+`ui-motion-workflow` builds on an open-source ecosystem rather than replacing it.
+
+Special thanks to the maintainers and contributors behind projects in the reference stack and surrounding workflow, including `ui-ux-pro-max`, `react-bits`, `magicui`, and `motion-primitives`.
+
+For explicit attribution and reuse notes, see `docs/acknowledgements.md`.
+
 ## License
 
 MIT
@@ -169,5 +188,6 @@ For a local checkout, the usual flow is:
 2. install `ui-motion-workflow` from that marketplace
 
 See [docs/codex-usage.md](docs/codex-usage.md) for the Codex-oriented workflow details.
+
 
 

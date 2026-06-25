@@ -1,42 +1,39 @@
 ﻿# Roadmap
 
-## Phase 1: Foundation
+## Now
 
-- Define the project scope
-- Document the portable workflow
-- Publish the Codex reference implementation shape
-- Establish naming and repository conventions
+Current foundation already in place:
 
-## Phase 2: Codex Reference
+- generic workflow documented
+- Codex reference implementation published
+- Claude Code, Cursor, and VS Code adapters documented
+- provider positioning for `react-bits`, `magicui`, and `motion-primitives`
+- initial examples and release notes
 
-- Add a Codex-native orchestrator skill
-- Define how it chains UI direction, motion integration, and browser validation
-- Define how it routes between `react-bits`, `magicui`, and `motion-primitives`
-- Test it against real localhost UI work
+## Next 30 Days
 
-## Phase 3: Multi-Environment Portability
+- improve install instructions per environment
+- add better README visuals and screenshots from real Codex usage
+- tighten contribution guidance for adapter additions
+- validate the workflow on more real frontend surfaces
 
-Completed foundation:
+## Next 60 Days
 
-- Claude Code adapter
-- Cursor adapter
-- VS Code adapter
+- expand the example gallery with more before/after style cases
+- document stronger browser-validation patterns
+- add clearer provider comparison matrices for common UI scenarios
+- refine the Codex plugin onboarding path
 
-Next:
+## Next 90 Days
 
-- refine install and usage guidance per environment
-- test examples across multiple real host projects
+- evaluate optional starter presets
+- evaluate whether lightweight helper scripts are worth adding
+- publish a cleaner release cadence for examples, adapters, and docs
+- keep the core workflow stable while expanding the adapter ecosystem
 
-## Phase 4: Practical Examples
+## Ongoing Principles
 
-- Marketing hero enhancement
-- Dashboard motion polish
-- Subtle animation retrofit for an existing UI
-- Provider selection examples showing when to choose `react-bits`, `magicui`, or `motion-primitives`
-- Concrete Codex execution examples and usage patterns
-
-## Phase 5: Distribution Options
-
-- Optional Codex plugin packaging
-- Optional starter presets
-- Optional example bundles
+- stay agent-agnostic at the workflow level
+- avoid pretending all runtimes share the same packaging model
+- keep upstream attribution and license respect explicit
+- prioritize practical, browser-validated frontend outcomes over theory
