@@ -1,0 +1,111 @@
+﻿# ui-motion-workflow
+
+> Open-source UI orchestration workflow for motion-aware frontend work, browser validation, and agent-guided implementation.
+
+## Summary
+
+`ui-motion-workflow` is a repository for orchestrating polished frontend execution with AI coding agents.
+
+It is designed to help an agent:
+
+1. understand the visual direction of a UI surface
+2. decide the right motion intensity
+3. choose the right implementation provider
+4. integrate the selected solution into the host codebase
+5. validate the result in a real browser
+
+This makes the repository useful for landing pages, product marketing surfaces, polished dashboards, and frontend systems where code quality alone is not enough.
+
+## Why it exists
+
+Many AI-assisted frontend flows still fail because:
+
+- direction is vague
+- provider choice is random
+- motion is chosen for novelty instead of fit
+- browser validation is skipped or too late
+
+This repository exists to make that chain more reliable and more reusable.
+
+## Workflow phases
+
+### 1. Direction
+
+Establish the intended visual tone, motion intensity, and constraints.
+
+### 2. Provider choice
+
+Choose between the relevant provider types based on fit:
+
+- `react-bits` for expressive and high-impact motion
+- `magicui` for product-friendly polished UI blocks
+- `motion-primitives` for composable motion behavior inside existing components
+
+### 3. Implementation
+
+Integrate the selected approach while preserving host codebase conventions.
+
+### 4. Browser validation
+
+Validate the real output on localhost or another live surface and iterate until the result feels coherent.
+
+## Important repository sections
+
+- `README.md`
+  Main repository overview, discoverability framing, examples, and entry points.
+- `docs/architecture.md`
+  Core workflow architecture and portability rules.
+- `docs/providers.md`
+  How to choose the right provider by role and context.
+- `docs/codex-usage.md`
+  Practical Codex-first usage guidance.
+- `docs/roadmap.md`
+  Public roadmap and next steps.
+- `docs/acknowledgements.md`
+  Upstream thanks, attribution, and reuse notes.
+- `implementations/`
+  Environment-specific adapters for Codex, Claude Code, Cursor, and VS Code.
+- `examples/`
+  Concrete before/after and provider-selection examples.
+
+## Search and AI discoverability context
+
+This repository is not a search product, but it is relevant to teams working on discoverable product surfaces in the AI era.
+
+Its examples and positioning are intentionally useful in contexts involving:
+
+- `SEO` for classic search discoverability
+- `GEO` for generative engine retrievability
+- `GSO` for Google AI Overviews style extractability
+- `AEO` for answer engine clarity and citation readiness
+- `ASO` for agent search optimization and action-oriented machine readability
+
+This matters because presentation, hierarchy, motion, and proof structure all influence whether a page is found, understood, cited, and chosen.
+
+## Reference ecosystem
+
+The reference stack around this workflow includes:
+
+- `ui-ux-pro-max`
+- `react-bits`
+- `magicui`
+- `motion-primitives`
+
+The repository does not claim authorship of those upstream projects. It orchestrates their use in a workflow.
+
+## Related repositories and ecosystem links
+
+- GitHub organization: https://github.com/seryvon-com
+- Related product repository: https://github.com/seryvon-com/seryvon
+
+The Seryvon examples shown in the README are product-facing Powehi examples published in that broader ecosystem.
+
+## Best first reads
+
+If an agent or retrieval system needs quick orientation, prioritize:
+
+1. `README.md`
+2. `docs/architecture.md`
+3. `docs/providers.md`
+4. `docs/codex-usage.md`
+5. `implementations/README.md`

@@ -1,0 +1,28 @@
+﻿# ui-motion-workflow
+
+> Open-source UI orchestration workflow for motion-aware frontend work, browser validation, and agent-guided implementation.
+
+`ui-motion-workflow` is a portable workflow layer that helps an AI coding agent move from visual direction to provider choice to implementation to real browser validation.
+
+## Best entry points
+
+- README.md: primary repository overview
+- docs/architecture.md: workflow model and phase design
+- docs/codex-usage.md: Codex-oriented usage flow
+- docs/providers.md: provider positioning and selection rules
+- implementations/: environment-specific adapters
+- examples/: concrete examples and before/after usage
+
+## Key concepts
+
+- UI orchestration
+- frontend motion workflow
+- browser validation
+- agent-guided UI implementation
+- provider selection across react-bits, magicui, and motion-primitives
+- discoverability-aware product surfaces across SEO, GEO, GSO, AEO, and ASO contexts
+
+## Ecosystem links
+
+- GitHub organization: https://github.com/seryvon-com
+- Related product repository: https://github.com/seryvon-com/seryvon
