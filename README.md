@@ -145,6 +145,25 @@ If you want the Codex-first setup, start with:
 5. add practical examples
 6. package optional distributions later if useful
 
+## Before And After Example
+
+Using `seryvon-website` as a concrete test bed, we can show the kind of shift this workflow is meant to support:
+
+- `before orchestrator`
+  A strong early landing direction, but with a less structured orchestration layer and a less fully developed product narrative.
+- `after orchestrator`
+  A more explicit motion-aware, hierarchy-aware, browser-validated landing built around clearer provider and messaging decisions.
+
+Before:
+
+![Seryvon before orchestrator](docs/seryvon-before-orchestrator.png)
+
+After:
+
+![Seryvon after orchestrator](docs/seryvon-after-orchestrator.png)
+
+This comparison is not meant to erase upstream design work. It is meant to show what a dedicated orchestration layer can add when direction, provider choice, and validation are handled as one workflow.
+
 ## Public Roadmap
 
 Short version:
@@ -188,6 +207,7 @@ For a local checkout, the usual flow is:
 2. install `ui-motion-workflow` from that marketplace
 
 See [docs/codex-usage.md](docs/codex-usage.md) for the Codex-oriented workflow details.
+
 
 
 
