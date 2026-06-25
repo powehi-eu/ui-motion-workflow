@@ -147,23 +147,36 @@ If you want the Codex-first setup, start with:
 
 ## Before And After Example
 
-Using `seryvon-website` as a concrete test bed, we can show the kind of shift this workflow is meant to support:
+Using `seryvon-website` as a concrete test bed, we can show the difference between:
 
 - `before orchestrator`
-  A strong early landing direction, but with a less structured orchestration layer and a less fully developed product narrative.
+  A version shaped mainly through UI direction alone.
 - `after orchestrator`
-  A more explicit motion-aware, hierarchy-aware, browser-validated landing built around clearer provider and messaging decisions.
+  A version improved through the full workflow: direction review, provider choice, implementation, and browser validation.
 
 Before:
 
-![Seryvon before orchestrator](docs/seryvon-before-orchestrator.png)
+![Seryvon before orchestrator hero](docs/seryvon-before-orchestrator-hero.png)
+
+![Seryvon before orchestrator proof](docs/seryvon-before-orchestrator-proof.png)
+
+![Seryvon before orchestrator compare](docs/seryvon-before-orchestrator-compare.png)
 
 After:
 
-![Seryvon after orchestrator](docs/seryvon-after-orchestrator.png)
+![Seryvon after orchestrator hero](docs/seryvon-after-orchestrator-hero.png)
 
-This comparison is not meant to erase upstream design work. It is meant to show what a dedicated orchestration layer can add when direction, provider choice, and validation are handled as one workflow.
+![Seryvon after orchestrator proof](docs/seryvon-after-orchestrator-proof.png)
 
+![Seryvon after orchestrator compare](docs/seryvon-after-orchestrator-compare.png)
+
+The new version feels more orchestrated because it reads like a guided sequence, not a stack of disconnected sections.
+
+The hero now has a much clearer hierarchy: product first (`Seryvon`), then the core promise, then the progression `Get found / Get cited / Get chosen.` The CTAs are easier to parse and more intentionally prioritized, so the page gives a stronger first direction instead of asking the user to figure it out.
+
+The pacing is also more controlled: less decorative noise, more breathing room, sharper cards, a sticky navigation, and sections that reveal at the right moment. Motion supports the reading flow instead of competing with it, through the hero entrance, the proof panel, the score bars, and the scroll reveals.
+
+Product proof is clearer too. The audit snapshot, metrics, comparison table, build-quality section, roadmap, and adoption path now form a more logical narrative. The page makes it easier to understand why Seryvon exists, what it measures, how it is different, and what to do next.
 ## Public Roadmap
 
 Short version:
@@ -207,6 +220,8 @@ For a local checkout, the usual flow is:
 2. install `ui-motion-workflow` from that marketplace
 
 See [docs/codex-usage.md](docs/codex-usage.md) for the Codex-oriented workflow details.
+
+
 
 
 
