@@ -1,0 +1,57 @@
+---
+description: Orchestrate motion-aware UI work by sequencing direction, provider choice, implementation, and browser validation.
+globs:
+  - "**/*.tsx"
+  - "**/*.jsx"
+  - "**/*.css"
+  - "**/*.scss"
+alwaysApply: false
+---
+
+# ui-motion-workflow
+
+Use this rule when the task is about animation polish, component motion, interactive feel, or browser-backed UI refinement.
+
+## Workflow
+
+1. Read the target surface and understand the user goal.
+2. Decide whether the task needs:
+   - direction first
+   - implementation first
+   - validation only
+3. If the motion direction is unclear, establish a concise direction before choosing a provider.
+4. Choose one provider by fit:
+   - `react-bits` for bold showcase motion
+   - `magicui` for polished product UI blocks
+   - `motion-primitives` for subtle motion behaviors in existing components
+5. Implement with the host codebase's conventions.
+6. Validate in a real browser when the local environment allows it.
+7. Iterate until the motion feels coherent and restrained.
+
+## Bias Rules
+
+- Avoid selecting the most dramatic option by default.
+- Prefer `magicui` or `motion-primitives` on denser product interfaces.
+- Use `react-bits` when the page intentionally needs a focal high-impact animated surface.
+- Keep motion scoped to one focal layer when possible.
+
+## Validation Checklist
+
+Check:
+
+- visual balance
+- motion intensity
+- readability during motion
+- mobile behavior
+- interaction comfort
+- overlap with nearby content hierarchy
+
+## Response Shape
+
+Return:
+
+- chosen phase order
+- provider decision
+- reason the choice fits
+- implementation notes
+- browser checks that confirm success

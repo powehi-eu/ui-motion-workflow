@@ -1,0 +1,37 @@
+{
+  "name": "ui-motion-workflow",
+  "version": "0.1.0",
+  "description": "Open-source Codex plugin for orchestrating UI direction, motion provider selection, and browser validation.",
+  "author": {
+    "name": "Powehi",
+    "url": "https://github.com/powehi-ai"
+  },
+  "repository": "https://github.com/powehi-ai/ui-motion-workflow",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "ui",
+    "motion",
+    "workflow",
+    "animation",
+    "react",
+    "design-system"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "UI Motion Workflow",
+    "shortDescription": "Orchestrate motion-aware frontend work.",
+    "longDescription": "Reference Codex implementation of ui-motion-workflow, coordinating UI direction, provider choice, and browser validation for polished frontend motion.",
+    "developerName": "Powehi",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Improve this hero with motion and validate it.",
+      "Choose the right motion provider for this UI.",
+      "Polish this existing component without changing layout."
+    ]
+  }
+}

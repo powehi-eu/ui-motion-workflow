@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Motion Workflow"
+  short_description: "Orchestrate UI motion implementation flow"
+  default_prompt: "Use $ui-motion-workflow to orchestrate UI direction, motion component selection, and browser validation."
