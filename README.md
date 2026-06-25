@@ -249,6 +249,11 @@ Special thanks to the maintainers and contributors behind projects in the refere
 
 For explicit attribution and reuse notes, see [docs/acknowledgements.md](docs/acknowledgements.md).
 
+## Installed In Codex
+
+After installation, the skill appears directly inside Codex and can be toggled and inspected like other installed skills:
+
+![UI Motion Workflow installed in Codex](docs/codex-ui-motion-workflow-installed.png)
 ## License
 
 MIT
@@ -273,4 +278,5 @@ For a local checkout, the usual flow is:
 2. install `ui-motion-workflow` from that marketplace
 
 See [docs/codex-usage.md](docs/codex-usage.md) for the Codex-oriented workflow details.
+
 
