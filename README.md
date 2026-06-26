@@ -2,7 +2,21 @@
 
 Open-source UI orchestration workflow for motion-aware frontend work, browser validation, and agent-guided implementation.
 
-`ui-motion-workflow` helps an AI coding agent move from visual direction to component choice to real browser-validated output.
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/badge/release-v0.1.0-0f172a.svg)](https://github.com/powehi-eu/ui-motion-workflow/releases/tag/v0.1.0)
+[![Codex First](https://img.shields.io/badge/Codex-first-2563eb.svg)](docs/codex-usage.md)
+[![Portable Workflow](https://img.shields.io/badge/portable-Claude%20Code%20%7C%20Cursor%20%7C%20VS%20Code-14b8a6.svg)](implementations/)
+
+![UI Motion Workflow cover](docs/ui-motion-workflow-cover.png)
+
+`ui-motion-workflow` helps coding agents sequence UI direction, provider selection, implementation, and browser validation so motion-aware frontend work feels intentional instead of randomly polished.
+
+Start here:
+
+- [Read the architecture](docs/architecture.md)
+- [Install and use in Codex](docs/codex-usage.md)
+- [Browse implementations](implementations/)
+- [See the first release](https://github.com/powehi-eu/ui-motion-workflow/releases/tag/v0.1.0)
 
 It is designed for teams working on:
 
